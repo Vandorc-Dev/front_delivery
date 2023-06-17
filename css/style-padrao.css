@@ -324,6 +324,43 @@ i.bi-stickies{
 }
 
 
+/* Cadastro produto*/
+
+#cadastro-produto{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.form-produto{
+    display: flex;
+    flex-direction: column;
+    width: 70vw; margin: auto;
+    margin-top: 4rem;
+    background-color: rgb(216, 209, 209);
+    padding: 2rem 2rem 3rem 2rem;
+    border-radius: 3rem;
+}
+
+.form-produto label{
+    margin-top: 1.5rem;
+}
+
+.area-digitavel{
+    border-radius: 1rem;
+}
+
+.form-produto button{
+    margin-top: .8rem;
+    padding: .3rem;
+    border-radius: 1rem;
+    background-color: rgb(36, 133, 245);
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+
 /*Media Querie*/
 
 @media screen and (max-width: 480px) {
